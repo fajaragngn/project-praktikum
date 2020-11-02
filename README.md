@@ -136,7 +136,7 @@ print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 <hr>
 
 ### how to
-* auto push
+auto push
 ```
 sh deploy.sh
 ```
