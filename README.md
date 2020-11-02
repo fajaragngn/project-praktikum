@@ -57,7 +57,7 @@ print(w,x,y,z,sep="")
 print(w,x,y,z,sep=":")
 print(w,x,y,z,sep="-----")
 ```
-![lab1](assets/img/pertemuan-6/3.png)
+![ss lab 1](assets/img/pertemuan-6/3.png)
 
 Penjelasan:
 * Penggunaan END digunakan untuk menambahkan kata yang dicetak di akhir baris
@@ -90,14 +90,14 @@ print('{0:>3}{1:>16})'.format(8, 10 ** 8))
 print('{0:>3}{1:>16})'.format(9, 10 ** 9))
 print('{0:>3}{1:>16})'.format(10, 10 ** 10))
 ```
-![lab1](assets/img/pertemuan-6/4.png)
+![ss2 lab 1](assets/img/pertemuan-6/4.png)
 
 Penjelasan:
 * string format 1 : menampilkan output berupa 2 outputan. sebelah kiri akan menampilkan angka urut dari angka 0 hingga 10, sedangkan sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.
 * string format 2 : ``print('{0:>3}{1:>16})'.format(0, 10 ** 0))`` ``.format()`` dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri
 
 ## Pertemuan 6 - Lab 2
-![lab1](assets/img/pertemuan-6/2.png)
+![lab2](assets/img/pertemuan-6/2.png)
 [source code lab 2](assets/lab2.py)
 
 ```
@@ -113,3 +113,21 @@ b=int(b)
 print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 ```
+![ss lab 2](assets/img/pertemuan-6/5.png)
+
+Penjelasan:
+```
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+```
+* untuk menginput nilai dalam variabel A / B
+* ``print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))`` mencetak nilai dengan menggabungkan dua variabel
+
+```
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
+* mengkonversikan nilai variabel, 
