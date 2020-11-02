@@ -133,3 +133,9 @@ print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 * mengkonversikan nilai variabel dengan penjumlahan & pembagian variabel A & B
 
 ![ss2 lab 2](assets/img/pertemuan-6/6.png)
+
+### how to
+* auto push
+```
+sh deploy.sh
+``

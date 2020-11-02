@@ -1,5 +1,4 @@
 #!/bin/bash
-
 echo -e "pull last repo first, if any edited"
 git pull
 
