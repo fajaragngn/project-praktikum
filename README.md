@@ -37,7 +37,7 @@ print("\n Let me introduce my self, my name is", namalengkap)
 
 ## Pertemuan 6 - Lab 1
 ![lab1](assets/img/pertemuan-6/1.png)
-
+[source code lab 1](assets/lab1.py):
 ```
 #Penggunaan End
 print("A", end="")
@@ -94,11 +94,22 @@ print('{0:>3}{1:>16})'.format(10, 10 ** 10))
 
 Penjelasan:
 * string format 1 : menampilkan output berupa 2 outputan. sebelah kiri akan menampilkan angka urut dari angka 0 hingga 10, sedangkan sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.
-* string format 2 : 
-```
-print('{0:>3}{1:>16})'.format(0, 10 ** 0))
-```
-``.format()`` dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri
+* string format 2 : ``print('{0:>3}{1:>16})'.format(0, 10 ** 0))`` ``.format()`` dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri
 
 ## Pertemuan 6 - Lab 2
 ![lab1](assets/img/pertemuan-6/2.png)
+[source code lab 2](assets/lab2.py)
+
+```
+a=int(input("Masukkan Nilai A : "))
+b=int(input("Masukkan Nilai B : "))
+print("Variable A : ",a)
+print("Variable B : ",b)
+print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))
+
+#Konversi nilai variable
+a=int(a)
+b=int(b)
+print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
+print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
+```
