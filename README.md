@@ -31,9 +31,9 @@ npm = int(input("Please enter your NPM : "))
 * syntax diatas juga sama, digunakan untuk mengambil input data, tapi sebelum tag 'input' saya menambahkan 'int' untuk menginput data khusus integer, jadi tipe data manapun tidak bisa di inputkan selain integer
 
 ```
-print("\n\n Assalamu'alaikum. ")
+print("\n Let me introduce my self, my name is", namalengkap)
 ```
-*
+* print berfungsi untuk mencetak hasil / output & saya juga memasukan variabel 'namalengkap' yang nanti akan tercetak setelah di inputkan oleh user
 
 ## Pertemuan 6 - Lab 1
 
