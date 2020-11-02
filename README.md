@@ -98,7 +98,7 @@ Penjelasan:
 
 ## Pertemuan 6 - Lab 2
 ![lab2](assets/img/pertemuan-6/2.png)
-[source code lab 2](assets/lab2.py)
+[source code lab 2](assets/lab2.py):
 
 ```
 a=int(input("Masukkan Nilai A : "))
@@ -120,7 +120,7 @@ Penjelasan:
 a=int(input("Masukkan Nilai A : "))
 b=int(input("Masukkan Nilai B : "))
 ```
-syntax diatas untuk menginput nilai dalam variabel A & B, ``print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))`` untuk mencetak nilai dengan menggabungkan dua variabel
+* syntax diatas untuk menginput nilai dalam variabel A & B, ``print("Hasil penggabungan {1}&{0}=%d".format(a,b) %(a+b))`` untuk mencetak nilai dengan menggabungkan dua variabel
 
 ```
 #Konversi nilai variable
@@ -129,6 +129,6 @@ b=int(b)
 print("Hasil penjumlahan {1}+{0}=%d".format(a,b) %(a+b))
 print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 ```
-mengkonversikan nilai variabel dengan penjumlahan & pembagian variabel A & B
+* mengkonversikan nilai variabel dengan penjumlahan & pembagian variabel A & B
 
 ![ss2 lab 2](assets/img/pertemuan-6/6.png)
