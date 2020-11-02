@@ -134,6 +134,7 @@ print("Hasil pembagian {1}/{0}=%d".format(a,b) %(a/b))
 
 ![ss2 lab 2](assets/img/pertemuan-6/6.png)
 <hr>
+
 ### how to
 * auto push
 ```
