@@ -93,6 +93,12 @@ print('{0:>3}{1:>16})'.format(10, 10 ** 10))
 ![lab1](assets/img/pertemuan-6/4.png)
 
 Penjelasan:
-* 
+* string format 1 : menampilkan output berupa 2 outputan. sebelah kiri akan menampilkan angka urut dari angka 0 hingga 10, sedangkan sebelah kanan akan menampilkan Operasi Aritmatika Pangkat.
+* string format 2 : 
+```
+print('{0:>3}{1:>16})'.format(0, 10 ** 0))
+```
+``.format()`` dalam kurung kurawal kita dapat menetapkan panjang bidang, rata kanan/kiri
 
-
+## Pertemuan 6 - Lab 2
+![lab1](assets/img/pertemuan-6/2.png)
