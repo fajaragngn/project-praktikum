@@ -57,6 +57,10 @@ print(w,x,y,z,sep="")
 print(w,x,y,z,sep=":")
 print(w,x,y,z,sep="-----")
 ```
+Penjelasan:
+* Penggunaan END digunakan untuk menambahkan kata yang dicetak di akhir baris
+* Penggunaan separator berfungsi sebagai tanda pemisah antar objek yang dicetak. Defaultnya adalah spasi
+
 ```
 # string format 1
 print(0, 10 ** 0)
@@ -84,5 +88,5 @@ print('{0:>3}{1:>16})'.format(8, 10 ** 8))
 print('{0:>3}{1:>16})'.format(9, 10 ** 9))
 print('{0:>3}{1:>16})'.format(10, 10 ** 10))
 ```
-Penjelasan:
+
 
